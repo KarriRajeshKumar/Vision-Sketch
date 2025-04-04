@@ -4,7 +4,7 @@ import { getStroke } from 'perfect-freehand'
 import { assets } from './assets/assets';
 
 const generator = rough.generator();
-const BASE_URL = "https://sketch-scan.vercel.app/";
+const BASE_URL = "https://vision-sketch-be.vercel.app/";
 
 const createElement = (id, x1, y1, x2, y2, tool) => {
   switch (tool) {
